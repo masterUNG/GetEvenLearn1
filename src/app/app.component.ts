@@ -27,4 +27,9 @@ export class AppComponent {
     this.colorH1 = '#1313ff';
   }
 
+  onKeyUp(message) {
+    console.log('You fill ==> ' + message);
+  }
+
+
 } // AppComponent

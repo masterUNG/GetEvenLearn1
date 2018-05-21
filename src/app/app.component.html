@@ -5,7 +5,8 @@
 <button (dblclick)="onClickDouble()"
         (mouseover)="onMouseOver()"
         (mouseout)="onMouseOut()"
-        [style.color]="colorH1">Test Double Click</button>
+        [style.color]="colorH1">Test Double Click
+</button>
 
 <br><br>
 
@@ -19,3 +20,10 @@
    [style.color]="colorH1"
    (mouseover)="onMouseOver()"
    (mouseout)="onMouseOut()">androidthai.in.th</a>
+
+<br><br>
+
+<input placeholder="Fill Message"
+       #myInput
+       type="text"
+       (keyup)="onKeyUp(myInput.value)">
