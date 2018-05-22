@@ -31,5 +31,9 @@ export class AppComponent {
     console.log('You fill ==> ' + message);
   }
 
+  saveMessage(messageString) {
+    console.log('Receive Message ==> ' + messageString);
+  }
+
 
 } // AppComponent

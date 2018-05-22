@@ -27,3 +27,9 @@
        #myInput
        type="text"
        (keyup)="onKeyUp(myInput.value)">
+
+<br><br>
+
+<input placeholder="Your Message" #myMessage type="text">
+
+<button (click)="saveMessage(myMessage.value)">Save Message</button>
